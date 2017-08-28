@@ -59,7 +59,10 @@ class HouseViewController: UIViewController {
     }
     
     @objc func displayMembers(){
-        let membersVC = MembersTableViewController(model: model.sortedMembers())
+        
+        let members    = model.sortedMembers()
+        let datasource = DataSources.personDataSource(model: members)
+        let membersVC  = ArrayTableViewController(dataSource: datasource, title: "Members", style: .plain)
         
         navigationController?.pushViewController(membersVC, animated: true)
     }

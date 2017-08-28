@@ -22,13 +22,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.cyan
         
         // Creamos los modelos
-        let houses = Repository.local.houses
+        let houses  = Repository.local.houses
+        let seasons = Repository.local.seasons
         
-        // Creamos la tabla
-        let housesVC = HousesTableViewController(model: houses).wrappedInNavigation()
+        
+        // Creamos los controladores
+        let houseDataSource = DataSources.houseDataSource(model: houses)
+        let housesVC        = ArrayTableViewController(dataSource: houseDataSource, title: "Houses", style: .plain, delegate: GreatHousesDelegate()).wrappedInNavigation()
+        
+        let seasonDataSource = DataSources.seasonDataSource(model: seasons)
+        let seasonVC         = ArrayTableViewController(dataSource: seasonDataSource, title: "Seasons", style: .plain, delegate: GreatSeasonsDelegate()).wrappedInNavigation()
+        
+        
+        // Creamos el tabBar
+        let tabVC = UITabBarController()
+        tabVC.viewControllers = [seasonVC, housesVC]
         
         // Asignamos el rootVC
-        window?.rootViewController = housesVC
+        window?.rootViewController = tabVC
         
         return true
     }
