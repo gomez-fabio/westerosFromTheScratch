@@ -16,6 +16,9 @@
 		E50B19C81F4AE91A00F765E0 /* lannister.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E50B19C61F4AE91A00F765E0 /* lannister.jpg */; };
 		E50B19CB1F4AEAF900F765E0 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B19CA1F4AEAF900F765E0 /* PersonTests.swift */; };
 		E50B19CD1F4AF4AD00F765E0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B19CC1F4AF4AD00F765E0 /* Person.swift */; };
+		E51B7B211F54E2520042C899 /* Tab_Game_of_Thrones.png in Resources */ = {isa = PBXBuildFile; fileRef = E51B7B1F1F54E2520042C899 /* Tab_Game_of_Thrones.png */; };
+		E52590511F54E63300FACD25 /* Tab_Seasons.png in Resources */ = {isa = PBXBuildFile; fileRef = E52590501F54E63300FACD25 /* Tab_Seasons.png */; };
+		E548CC9A1F54EB7100C31AD3 /* UtilsDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548CC991F54EB7100C31AD3 /* UtilsDate.swift */; };
 		E5C86C131F52ED5F0000ABA4 /* ArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86C121F52ED5F0000ABA4 /* ArrayDataSource.swift */; };
 		E5C86C151F52F52C0000ABA4 /* ArrayDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86C141F52F52C0000ABA4 /* ArrayDataSourceTests.swift */; };
 		E5C86C171F533C770000ABA4 /* ArrayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86C161F533C770000ABA4 /* ArrayTableViewController.swift */; };
@@ -73,6 +76,9 @@
 		E50B19C61F4AE91A00F765E0 /* lannister.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lannister.jpg; sourceTree = "<group>"; };
 		E50B19CA1F4AEAF900F765E0 /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
 		E50B19CC1F4AF4AD00F765E0 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E51B7B1F1F54E2520042C899 /* Tab_Game_of_Thrones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Game_of_Thrones.png; sourceTree = "<group>"; };
+		E52590501F54E63300FACD25 /* Tab_Seasons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Seasons.png; sourceTree = "<group>"; };
+		E548CC991F54EB7100C31AD3 /* UtilsDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsDate.swift; sourceTree = "<group>"; };
 		E5C86C121F52ED5F0000ABA4 /* ArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSource.swift; sourceTree = "<group>"; };
 		E5C86C141F52F52C0000ABA4 /* ArrayDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSourceTests.swift; sourceTree = "<group>"; };
 		E5C86C161F533C770000ABA4 /* ArrayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTableViewController.swift; sourceTree = "<group>"; };
@@ -186,6 +192,8 @@
 		E50B19C91F4AE92100F765E0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E51B7B1F1F54E2520042C899 /* Tab_Game_of_Thrones.png */,
+				E52590501F54E63300FACD25 /* Tab_Seasons.png */,
 				E5C86C251F5390A20000ABA4 /* e101.jpg */,
 				E5C86C261F5390A20000ABA4 /* e102.jpg */,
 				E5C86C271F5390A20000ABA4 /* e201.jpg */,
@@ -234,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				E5E473A61F4CF3E7007A56CA /* UIKitExtension.swift */,
+				E548CC991F54EB7100C31AD3 /* UtilsDate.swift */,
 			);
 			name = Cocoa;
 			sourceTree = "<group>";
@@ -322,9 +331,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51B7B211F54E2520042C899 /* Tab_Game_of_Thrones.png in Resources */,
 				E5C86C341F5390A20000ABA4 /* e102.jpg in Resources */,
 				E5C86C391F5390A20000ABA4 /* e401.jpg in Resources */,
 				E5C86C381F5390A20000ABA4 /* e302.jpg in Resources */,
+				E52590511F54E63300FACD25 /* Tab_Seasons.png in Resources */,
 				E50B19C81F4AE91A00F765E0 /* lannister.jpg in Resources */,
 				E5C86C3B1F5390A20000ABA4 /* e501.jpg in Resources */,
 				E5E473B11F50F2AA007A56CA /* WikiViewController.xib in Resources */,
@@ -365,6 +376,7 @@
 				E5E473A71F4CF3E7007A56CA /* UIKitExtension.swift in Sources */,
 				E5E473A21F4C4474007A56CA /* HouseViewController.swift in Sources */,
 				E5C86C1A1F533ED50000ABA4 /* DataSource.swift in Sources */,
+				E548CC9A1F54EB7100C31AD3 /* UtilsDate.swift in Sources */,
 				E5C86C171F533C770000ABA4 /* ArrayTableViewController.swift in Sources */,
 				E5C86C451F542B160000ABA4 /* EpisodeViewController.swift in Sources */,
 				E5C86C131F52ED5F0000ABA4 /* ArrayDataSource.swift in Sources */,

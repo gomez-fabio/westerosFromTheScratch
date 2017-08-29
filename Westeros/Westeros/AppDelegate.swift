@@ -31,12 +31,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let housesVC        = ArrayTableViewController(dataSource: houseDataSource, title: "Houses", style: .plain, delegate: GreatHousesDelegate()).wrappedInNavigation()
         
         let seasonDataSource = DataSources.seasonDataSource(model: seasons)
-        let seasonVC         = ArrayTableViewController(dataSource: seasonDataSource, title: "Seasons", style: .plain, delegate: GreatSeasonsDelegate()).wrappedInNavigation()
+        let seasonsVC         = ArrayTableViewController(dataSource: seasonDataSource, title: "Seasons", style: .plain, delegate: GreatSeasonsDelegate()).wrappedInNavigation()
         
+        housesVC.tabBarItem  = UITabBarItem(title: "Houses", image: #imageLiteral(resourceName: "Tab_Game_of_Thrones.png"), selectedImage: nil)
+        seasonsVC.tabBarItem = UITabBarItem(title: "Seasons", image: #imageLiteral(resourceName: "Tab_Seasons.png"), selectedImage: nil)
         
         // Creamos el tabBar
         let tabVC = UITabBarController()
-        tabVC.viewControllers = [seasonVC, housesVC]
+        tabVC.viewControllers = [seasonsVC, housesVC]
         
         // Asignamos el rootVC
         window?.rootViewController = tabVC

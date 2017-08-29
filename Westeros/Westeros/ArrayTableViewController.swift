@@ -22,7 +22,7 @@ class ArrayTableViewController<Element>: UITableViewController {
         self.title = title
         self.delegate?.viewController = self
         self.delegate?.source         = dataSource
-        self.tableView.delegate       = self.delegate as? UITableViewDelegate
+        self.tableView.delegate       = (self.delegate as? UITableViewDelegate)
         self.tableView.dataSource     = self.dataSource
     }
     
