@@ -12,8 +12,9 @@ class EpisodeViewController: UIViewController {
 
     @IBOutlet weak var episodeImageView: UIImageView!
     @IBOutlet weak var EpisodeSynopsisView: UITextView!
+    @IBOutlet weak var seasonLabel: UILabel!
     
-    let model : Episode
+    let model  : Episode
     
     init(model: Episode) {
         self.model = model
@@ -29,6 +30,7 @@ class EpisodeViewController: UIViewController {
     func syncViewWithModel() {
         episodeImageView.image   = model.image
         EpisodeSynopsisView.text = model.synopsis
+        seasonLabel.text         = model.season?.name
     }
     
     override func viewWillAppear(_ animated: Bool) {
