@@ -21,18 +21,24 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qI9-2v-UWU">
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qI9-2v-UWU">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </webView>
-                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="z0F-h5-mlI">
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="z0F-h5-mlI">
                     <rect key="frame" x="169" y="315" width="37" height="37"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="color" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                 </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="z0F-h5-mlI" firstAttribute="centerY" secondItem="qI9-2v-UWU" secondAttribute="centerY" id="0be-0V-NT1"/>
+                <constraint firstItem="qI9-2v-UWU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NIo-GI-YQl"/>
+                <constraint firstItem="qI9-2v-UWU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aen-Wr-vXO"/>
+                <constraint firstAttribute="trailing" secondItem="qI9-2v-UWU" secondAttribute="trailing" id="nvp-Yg-d97"/>
+                <constraint firstAttribute="bottom" secondItem="qI9-2v-UWU" secondAttribute="bottom" id="pdF-gd-f0f"/>
+                <constraint firstItem="z0F-h5-mlI" firstAttribute="centerX" secondItem="qI9-2v-UWU" secondAttribute="centerX" id="vOT-zb-CRm"/>
+            </constraints>
             <point key="canvasLocation" x="25.5" y="51.5"/>
         </view>
     </objects>
