@@ -24,19 +24,19 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OaD-1H-9Td">
-                    <rect key="frame" x="56.5" y="100" width="262.5" height="467"/>
+                    <rect key="frame" x="19" y="100" width="337.5" height="467"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygE-Xh-0uI">
-                            <rect key="frame" x="106.5" y="0.0" width="49.5" height="25"/>
+                            <rect key="frame" x="144" y="0.0" width="49.5" height="25"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
                             <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="codeIsComing.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gnx-gn-pZg">
-                            <rect key="frame" x="0.0" y="25" width="262.5" height="423"/>
+                            <rect key="frame" x="0.0" y="25" width="337.5" height="423"/>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1J-oA-P10">
-                            <rect key="frame" x="113.5" y="448" width="36" height="19"/>
+                            <rect key="frame" x="150.5" y="448" width="36" height="19"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
                             <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -49,7 +49,7 @@
                 <constraint firstItem="OaD-1H-9Td" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="LKb-cL-gQM"/>
                 <constraint firstItem="OaD-1H-9Td" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tHc-gM-rRc"/>
                 <constraint firstItem="OaD-1H-9Td" firstAttribute="height" relation="lessThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.7" id="vtB-tS-lRX"/>
-                <constraint firstItem="OaD-1H-9Td" firstAttribute="width" relation="lessThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.7" id="wYo-a6-gh6"/>
+                <constraint firstItem="OaD-1H-9Td" firstAttribute="width" relation="lessThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.9" id="wYo-a6-gh6"/>
             </constraints>
             <point key="canvasLocation" x="531" y="213"/>
         </view>
