@@ -15,13 +15,15 @@ final class Episode {
     let image       : UIImage
     let synopsis    : String
     weak var season : Season? // para evitar referencia circular
+    let number      : Int
     
-    init(title: String, airDate: Date, image: UIImage, synopsis: String, season: Season) {
+    init(title: String, airDate: Date, image: UIImage, synopsis: String, season: Season, number: Int) {
         self.title    = title
         self.airDate  = airDate
         self.image    = image
         self.synopsis = synopsis
         self.season   = season
+        self.number   = number
         
     }
     

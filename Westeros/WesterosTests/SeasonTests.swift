@@ -30,7 +30,8 @@ class SeasonTests: XCTestCase {
                      airDate: "01/01/1970".dateToString(),
                        image: #imageLiteral(resourceName: "e101.jpg"),
                     synopsis: "Grijander strikes back",
-                      season: season01)
+                      season: season01,
+                      number: 3)
 
     }
     

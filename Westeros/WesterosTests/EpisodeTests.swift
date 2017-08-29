@@ -26,13 +26,15 @@ class EpisodeTests: XCTestCase {
                        airDate: "01/01/1970".dateToString(),
                        image: #imageLiteral(resourceName: "e101.jpg"),
                        synopsis: "Grijander strikes back",
-                       season: season01)
+                       season: season01,
+                       number: 3)
         
         e104 = Episode(title: "Krispin Klander",
                      airDate: "18/05/1973".dateToString(),
                        image: #imageLiteral(resourceName: "e101.jpg"),
                     synopsis: "Return of the Klander",
-                      season: season01)
+                      season: season01,
+                      number: 4)
         
     }
     
@@ -64,7 +66,8 @@ class EpisodeTests: XCTestCase {
                                 airDate: "01/01/1970".dateToString(),
                                   image: #imageLiteral(resourceName: "e101.jpg"),
                                synopsis: "Grijander strikes back",
-                                 season: season01)
+                                 season: season01,
+                                 number: 3)
         XCTAssertEqual(e103, testEpisode)
     }
   
