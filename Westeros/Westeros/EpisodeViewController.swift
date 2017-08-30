@@ -13,7 +13,6 @@ class EpisodeViewController: UIViewController {
     @IBOutlet weak var episodeImageView: UIImageView!
     @IBOutlet weak var EpisodeSynopsisView: UITextView!
     @IBOutlet weak var episodeTitleLabel: UILabel!
-    @IBOutlet weak var episodeNumberLabel: UILabel!
     
     let model  : Episode
     
@@ -31,8 +30,7 @@ class EpisodeViewController: UIViewController {
     func syncViewWithModel() {
         episodeImageView.image   = model.image
         EpisodeSynopsisView.text = model.synopsis
-        episodeTitleLabel.text   = model.title
-        episodeNumberLabel.text  = "Episode \(model.number) -"
+        episodeTitleLabel.text   = "Episode \(model.number) - \(model.title)"
     }
     
     override func viewWillAppear(_ animated: Bool) {
