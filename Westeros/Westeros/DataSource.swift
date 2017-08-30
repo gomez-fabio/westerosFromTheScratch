@@ -58,6 +58,7 @@ final class DataSources {
             }
             
             cell?.textLabel?.text       = season.name
+            cell?.imageView?.image      = season.image
             cell?.detailTextLabel?.text = season.releaseDate.stringToDate()
             
             return cell!

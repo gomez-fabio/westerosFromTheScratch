@@ -44,22 +44,28 @@ final class LocalFactory : HouseFactory {
     var seasons: [Season] {
         get {
             let season01 = Season(name: "Season 1",
-                           releaseDate: "09/05/2011".dateToString())
+                           releaseDate: "09/05/2011".dateToString(),
+                                 image: #imageLiteral(resourceName: "S01.png"))
             
             let season02 = Season(name: "Season 2",
-                           releaseDate: "01/04/2012".dateToString())
+                           releaseDate: "01/04/2012".dateToString(),
+                                 image: #imageLiteral(resourceName: "S02.png"))
             
             let season03 = Season(name: "Season 3",
-                           releaseDate: "31/03/2013".dateToString())
+                           releaseDate: "31/03/2013".dateToString(),
+                                 image: #imageLiteral(resourceName: "S03.png"))
             
             let season04 = Season(name: "Season 4",
-                           releaseDate: "06/04/2014".dateToString())
+                           releaseDate: "06/04/2014".dateToString(),
+                                 image:#imageLiteral(resourceName: "S04.png"))
             
             let season05 = Season(name: "Season 5",
-                           releaseDate: "12/04/2015".dateToString())
+                           releaseDate: "12/04/2015".dateToString(),
+                                 image: #imageLiteral(resourceName: "S05.png"))
             
             let season06 = Season(name: "Season 6",
-                           releaseDate: "24/04/2016".dateToString())
+                           releaseDate: "24/04/2016".dateToString(),
+                                 image: #imageLiteral(resourceName: "S06.png"))
             
             let e101 = Episode(title: "Winter is coming",
                              airDate: "09/05/2011".dateToString(),

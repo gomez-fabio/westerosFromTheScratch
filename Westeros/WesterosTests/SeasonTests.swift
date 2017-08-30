@@ -23,7 +23,8 @@ class SeasonTests: XCTestCase {
         season01 = Repository.local.seasons.first
         
         season08 = Season(name: "Season 8",
-                              releaseDate: "09/05/2018".dateToString())
+                   releaseDate: "09/05/2018".dateToString(),
+                         image: #imageLiteral(resourceName: "S06.png"))
 
         
         e103 = Episode(title: "Grijander",
@@ -68,7 +69,8 @@ class SeasonTests: XCTestCase {
     func testSeasonEquality() {
         
         let testSeason = Season(name: "Season 8",
-                         releaseDate: "09/05/2018".dateToString())
+                         releaseDate: "09/05/2018".dateToString(),
+                               image: #imageLiteral(resourceName: "S06.png"))
         
         XCTAssertEqual(season08, testSeason)
     }
