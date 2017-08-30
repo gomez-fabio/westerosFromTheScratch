@@ -21,10 +21,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.backgroundColor = UIColor.cyan
         
+        UINavigationBar.appearance().barTintColor     = UIColor.darkGray
+        
+//        let selectedColor = UIColor.white
+//        
+//        UITabBar.appearance().barTintColor = UIColor.darkGray
+//        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: selectedColor], for: .selected)
+        
+        UINavigationBar.appearance().tintColor = UIColor.lightGray
+        UINavigationBar.appearance().barStyle  = UIBarStyle.black
+        
+        UITabBar.appearance().barTintColor = UIColor.darkGray
+        UITabBar.appearance().tintColor    = UIColor.white
+        
         // Creamos los modelos
         let houses  = Repository.local.houses
         let seasons = Repository.local.seasons
-        
         
         // Creamos los controladores
         let houseDataSource = DataSources.houseDataSource(model: houses)
