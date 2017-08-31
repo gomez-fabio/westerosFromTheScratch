@@ -10,9 +10,10 @@ import UIKit
 
 class HouseViewController: UIViewController {
 
-    @IBOutlet weak var houseNameView: UILabel!
+    
     @IBOutlet weak var wordsView: UILabel!
     @IBOutlet weak var sigilImageView: UIImageView!
+    @IBOutlet weak var sigilDescription: UILabel!
     
     // Defino mi modelo
     let model : House
@@ -22,7 +23,7 @@ class HouseViewController: UIViewController {
         self.model = model
         super.init(nibName: nil, bundle: nil)
         
-        title = model.name // el title obligatoriamente tras la llamada al init de la superclase
+        title = "House \(model.name)" // el title obligatoriamente tras la llamada al init de la superclase
     }
     
     // Alguna chapuza relacionada con el uso de nil, se pone y punto.
@@ -69,9 +70,9 @@ class HouseViewController: UIViewController {
     
     // Sincronizar vista y modelo
     func syncViewWithModel(){
-        houseNameView.text   = "House \(model.name)"
-        sigilImageView.image = model.sigil.image
-        wordsView.text       = model.words
+        sigilDescription.text = model.sigil.description
+        sigilImageView.image  = model.sigil.image
+        wordsView.text        = model.words
     }
     
     

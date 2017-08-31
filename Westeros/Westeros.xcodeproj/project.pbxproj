@@ -48,6 +48,12 @@
 		E5C86C451F542B160000ABA4 /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86C431F542B160000ABA4 /* EpisodeViewController.swift */; };
 		E5C86C461F542B160000ABA4 /* EpisodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C86C441F542B160000ABA4 /* EpisodeViewController.xib */; };
 		E5C86C481F5464200000ABA4 /* EpisodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86C471F5464200000ABA4 /* EpisodeTests.swift */; };
+		E5E35AC01F5804420029DF89 /* greyjoySigil.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E35ABF1F5804420029DF89 /* greyjoySigil.png */; };
+		E5E35AC21F5806310029DF89 /* tyrellSigil.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E35AC11F5806310029DF89 /* tyrellSigil.png */; };
+		E5E35AC41F580AEA0029DF89 /* baratheonSigil.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E35AC31F580AEA0029DF89 /* baratheonSigil.png */; };
+		E5E35AC61F580C170029DF89 /* arrynSigil.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E35AC51F580C170029DF89 /* arrynSigil.png */; };
+		E5E35AC81F580DF10029DF89 /* martellSigil.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E35AC71F580DF10029DF89 /* martellSigil.png */; };
+		E5E35ACA1F580F5D0029DF89 /* tullySigil.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E35AC91F580F5D0029DF89 /* tullySigil.png */; };
 		E5E473A21F4C4474007A56CA /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E473A01F4C4474007A56CA /* HouseViewController.swift */; };
 		E5E473A31F4C4474007A56CA /* HouseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E473A11F4C4474007A56CA /* HouseViewController.xib */; };
 		E5E473A71F4CF3E7007A56CA /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E473A61F4CF3E7007A56CA /* UIKitExtension.swift */; };
@@ -114,6 +120,12 @@
 		E5C86C431F542B160000ABA4 /* EpisodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
 		E5C86C441F542B160000ABA4 /* EpisodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EpisodeViewController.xib; sourceTree = "<group>"; };
 		E5C86C471F5464200000ABA4 /* EpisodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeTests.swift; sourceTree = "<group>"; };
+		E5E35ABF1F5804420029DF89 /* greyjoySigil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyjoySigil.png; sourceTree = "<group>"; };
+		E5E35AC11F5806310029DF89 /* tyrellSigil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tyrellSigil.png; sourceTree = "<group>"; };
+		E5E35AC31F580AEA0029DF89 /* baratheonSigil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baratheonSigil.png; sourceTree = "<group>"; };
+		E5E35AC51F580C170029DF89 /* arrynSigil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrynSigil.png; sourceTree = "<group>"; };
+		E5E35AC71F580DF10029DF89 /* martellSigil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = martellSigil.png; sourceTree = "<group>"; };
+		E5E35AC91F580F5D0029DF89 /* tullySigil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tullySigil.png; sourceTree = "<group>"; };
 		E5E473A01F4C4474007A56CA /* HouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 		E5E473A11F4C4474007A56CA /* HouseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseViewController.xib; sourceTree = "<group>"; };
 		E5E473A61F4CF3E7007A56CA /* UIKitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
@@ -224,9 +236,15 @@
 				E5C86C2E1F5390A20000ABA4 /* e502.jpg */,
 				E5C86C2F1F5390A20000ABA4 /* e601.jpg */,
 				E5C86C301F5390A20000ABA4 /* e602.jpg */,
+				E5E35AC51F580C170029DF89 /* arrynSigil.png */,
+				E5E35AC31F580AEA0029DF89 /* baratheonSigil.png */,
+				E5E35ABF1F5804420029DF89 /* greyjoySigil.png */,
 				E50B19C51F4AE91A00F765E0 /* codeIsComing.png */,
 				E50B19C61F4AE91A00F765E0 /* lannister.jpg */,
+				E5E35AC11F5806310029DF89 /* tyrellSigil.png */,
 				E5E473AC1F5048AF007A56CA /* targaryen.png */,
+				E5E35AC91F580F5D0029DF89 /* tullySigil.png */,
+				E5E35AC71F580DF10029DF89 /* martellSigil.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -351,10 +369,16 @@
 			files = (
 				E54240641F572F2600127494 /* S05.png in Resources */,
 				E51B7B211F54E2520042C899 /* Tab_Game_of_Thrones.png in Resources */,
+				E5E35AC01F5804420029DF89 /* greyjoySigil.png in Resources */,
 				E54240631F572F2600127494 /* S04.png in Resources */,
+				E5E35AC21F5806310029DF89 /* tyrellSigil.png in Resources */,
+				E5E35AC61F580C170029DF89 /* arrynSigil.png in Resources */,
+				E5E35AC81F580DF10029DF89 /* martellSigil.png in Resources */,
 				E5C86C341F5390A20000ABA4 /* e102.jpg in Resources */,
 				E5C86C391F5390A20000ABA4 /* e401.jpg in Resources */,
 				E5C86C381F5390A20000ABA4 /* e302.jpg in Resources */,
+				E5E35AC41F580AEA0029DF89 /* baratheonSigil.png in Resources */,
+				E5E35ACA1F580F5D0029DF89 /* tullySigil.png in Resources */,
 				E54240601F572F2600127494 /* S01.png in Resources */,
 				E52590511F54E63300FACD25 /* Tab_Seasons.png in Resources */,
 				E50B19C81F4AE91A00F765E0 /* lannister.jpg in Resources */,
