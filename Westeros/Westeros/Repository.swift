@@ -67,6 +67,10 @@ final class LocalFactory : HouseFactory {
                            releaseDate: "24/04/2016".dateToString(),
                                  image: #imageLiteral(resourceName: "S06.png"))
             
+            let season07 = Season(name: "Season 7",
+                           releaseDate: "16/07/2017".dateToString(),
+                                 image: #imageLiteral(resourceName: "S07.png"))
+            
             let e101 = Episode(title: "Winter is coming",
                              airDate: "17/04/2011".dateToString(),
                                image: #imageLiteral(resourceName: "e101.jpg"),
@@ -150,14 +154,36 @@ final class LocalFactory : HouseFactory {
                               season: season06,
                               number: 2)
             
+            let e701 = Episode(title: "Dragonstone",
+                             airDate: "16/07/2017".dateToString(),
+                               image: #imageLiteral(resourceName: "e701.jpg"),
+                            synopsis: "At the Twins, Arya fatally poisons the remaining lords of House Frey. The White Walkers march toward the Wall, where Tollett allows Bran and Meera inside. At Winterfell, despite Sansa's disapproval, Jon secures the loyalties of Houses Umber and Karstark, who fought alongside Ramsay in the Battle of the Bastards. At the Citadel, Samwell steals books that reveal a large reservoir of dragonglass in Dragonstone, and sends word to Jon. He later finds Jorah in a cell. In the Riverlands, Arya meets a group of friendly Lannister soldiers, who take her intention to kill Cersei as a joke. Thoros shows Sandor a vision in the fire. The revelation leads him to believe in the Lord of Light. In King's Landing, Jaime tells Cersei of the crucial need for allies. She welcomes Euron, who proposes marriage to her in exchange for his Iron Fleet and a chance to kill Theon and Yara. Cersei declines citing trust as a concern, so Euron promises to return with a 'gift' to prove his loyalty. Daenerys arrives at Dragonstone, the home of House Targaryen once occupied by Stannis, with her army and dragons.",
+                              season: season07,
+                              number: 1)
+            
+            let e702 = Episode(title: "Stormborn",
+                             airDate: "23/07/2017".dateToString(),
+                               image: #imageLiteral(resourceName: "e702.jpg"),
+                            synopsis: "Daenerys sends the Dornishmen with Yara's fleet to Sunspear and the Unsullied to Casterly Rock, deciding to place King's Landing under siege. She questions Varys' loyalty and threatens to burn him alive if he ever betrays her. Melisandre arrives and encourages her to invite Jon Snow to Dragonstone. Grey Worm and Missandei consummate their relationship. Cersei gathers several lords, asking for their fealties and elevating Randyll Tarly as Warden of the South. Qyburn shows Cersei a prototype ballista capable of killing dragons. Arya meets with Hot Pie and learns of Jon's ascension to King in the North, halting plans to travel to King's Landing and instead setting course for Winterfell. After receiving Samwell's letter, Jon leaves for Dragonstone in hopes of convincing Daenerys to support the fight against the White Walkers. He leaves Sansa in charge and aggressively warns Littlefinger to keep his distance. Samwell applies a forbidden treatment on Jorah's Greyscale infection. Euron's fleet attacks Yara's. Obara and Nymeria are killed, while Ellaria, Tyene, and Yara are captured. Theon shows flashes of his time as Reek, hesitating to challenge Euron before fleeing the carnage by jumping into the sea.",
+                              season: season07,
+                              number: 2)
+            
+            let e703 = Episode (title: "The Queen's Justice",
+                              airDate: "30/07/2017".dateToString(),
+                                image: #imageLiteral(resourceName: "e703.jpg"),
+                             synopsis: "Jon arrives at Dragonstone. Daenerys demands his fealty. He refuses and focuses instead on convincing her to fight the Army of the Dead. Following Tyrion's advice, Daenerys grants Jon access to the island's dragonglass. Melisandre hides her presence from Jon and leaves for Volantis. Bran arrives at Winterfell and reveals his newfound role as the Three-Eyed Raven to Sansa. In King's Landing, Euron returns with Ellaria and Tyene as a gift for Cersei, who promises to marry him after the war is won. She also awards him co-control of her military alongside Jaime. Cersei administers the same poison to Tyene used to kill Myrcella, forcing Ellaria to watch her daughter's impending death. In Oldtown, a healed Jorah leaves to find Daenerys. Ebrose forgives Samwell. Grey Worm and the Unsullied attack Casterly Rock, only to find it mostly abandoned. Jaime led most of the Lannister forces in an attack on Highgarden, while Euron's fleet ambushes and destroys the Unsullied's ships. The Lannister forces overwhelm Olenna's army. Jaime induces Olenna to drink poison, offering her a quick and painless death. After drinking it, she confesses to poisoning Joffrey.",
+                               season: season07,
+                               number: 3)
+            
             season01.add(episodes: e101,e102)
             season02.add(episodes: e201,e202)
             season03.add(episodes: e301,e302)
             season04.add(episodes: e401,e402)
             season05.add(episodes: e501,e502)
             season06.add(episodes: e601,e602)
+            season07.add(episodes: e701,e702,e703)
             
-            return [season01, season02, season03, season04, season05, season06].sorted()
+            return [season01, season02, season03, season04, season05, season06, season07].sorted()
 
         }
     }

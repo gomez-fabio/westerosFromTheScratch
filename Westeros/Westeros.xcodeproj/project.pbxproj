@@ -25,6 +25,10 @@
 		E54240641F572F2600127494 /* S05.png in Resources */ = {isa = PBXBuildFile; fileRef = E542405E1F572F2600127494 /* S05.png */; };
 		E54240651F572F2600127494 /* S06.png in Resources */ = {isa = PBXBuildFile; fileRef = E542405F1F572F2600127494 /* S06.png */; };
 		E548CC9A1F54EB7100C31AD3 /* UtilsDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548CC991F54EB7100C31AD3 /* UtilsDate.swift */; };
+		E5B11DD31F58342300D5A427 /* S07.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B11DD21F58342300D5A427 /* S07.png */; };
+		E5B11DD71F58358600D5A427 /* e701.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5B11DD41F58358600D5A427 /* e701.jpg */; };
+		E5B11DD81F58358600D5A427 /* e702.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5B11DD51F58358600D5A427 /* e702.jpg */; };
+		E5B11DD91F58358600D5A427 /* e703.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5B11DD61F58358600D5A427 /* e703.jpg */; };
 		E5C86C131F52ED5F0000ABA4 /* ArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86C121F52ED5F0000ABA4 /* ArrayDataSource.swift */; };
 		E5C86C151F52F52C0000ABA4 /* ArrayDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86C141F52F52C0000ABA4 /* ArrayDataSourceTests.swift */; };
 		E5C86C171F533C770000ABA4 /* ArrayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86C161F533C770000ABA4 /* ArrayTableViewController.swift */; };
@@ -97,6 +101,10 @@
 		E542405E1F572F2600127494 /* S05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S05.png; sourceTree = "<group>"; };
 		E542405F1F572F2600127494 /* S06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S06.png; sourceTree = "<group>"; };
 		E548CC991F54EB7100C31AD3 /* UtilsDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsDate.swift; sourceTree = "<group>"; };
+		E5B11DD21F58342300D5A427 /* S07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S07.png; sourceTree = "<group>"; };
+		E5B11DD41F58358600D5A427 /* e701.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e701.jpg; sourceTree = "<group>"; };
+		E5B11DD51F58358600D5A427 /* e702.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e702.jpg; sourceTree = "<group>"; };
+		E5B11DD61F58358600D5A427 /* e703.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e703.jpg; sourceTree = "<group>"; };
 		E5C86C121F52ED5F0000ABA4 /* ArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSource.swift; sourceTree = "<group>"; };
 		E5C86C141F52F52C0000ABA4 /* ArrayDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSourceTests.swift; sourceTree = "<group>"; };
 		E5C86C161F533C770000ABA4 /* ArrayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTableViewController.swift; sourceTree = "<group>"; };
@@ -222,6 +230,7 @@
 				E542405D1F572F2600127494 /* S04.png */,
 				E542405E1F572F2600127494 /* S05.png */,
 				E542405F1F572F2600127494 /* S06.png */,
+				E5B11DD21F58342300D5A427 /* S07.png */,
 				E51B7B1F1F54E2520042C899 /* Tab_Game_of_Thrones.png */,
 				E52590501F54E63300FACD25 /* Tab_Seasons.png */,
 				E5C86C251F5390A20000ABA4 /* e101.jpg */,
@@ -236,6 +245,9 @@
 				E5C86C2E1F5390A20000ABA4 /* e502.jpg */,
 				E5C86C2F1F5390A20000ABA4 /* e601.jpg */,
 				E5C86C301F5390A20000ABA4 /* e602.jpg */,
+				E5B11DD41F58358600D5A427 /* e701.jpg */,
+				E5B11DD51F58358600D5A427 /* e702.jpg */,
+				E5B11DD61F58358600D5A427 /* e703.jpg */,
 				E5E35AC51F580C170029DF89 /* arrynSigil.png */,
 				E5E35AC31F580AEA0029DF89 /* baratheonSigil.png */,
 				E5E35ABF1F5804420029DF89 /* greyjoySigil.png */,
@@ -371,11 +383,13 @@
 				E51B7B211F54E2520042C899 /* Tab_Game_of_Thrones.png in Resources */,
 				E5E35AC01F5804420029DF89 /* greyjoySigil.png in Resources */,
 				E54240631F572F2600127494 /* S04.png in Resources */,
+				E5B11DD71F58358600D5A427 /* e701.jpg in Resources */,
 				E5E35AC21F5806310029DF89 /* tyrellSigil.png in Resources */,
 				E5E35AC61F580C170029DF89 /* arrynSigil.png in Resources */,
 				E5E35AC81F580DF10029DF89 /* martellSigil.png in Resources */,
 				E5C86C341F5390A20000ABA4 /* e102.jpg in Resources */,
 				E5C86C391F5390A20000ABA4 /* e401.jpg in Resources */,
+				E5B11DD81F58358600D5A427 /* e702.jpg in Resources */,
 				E5C86C381F5390A20000ABA4 /* e302.jpg in Resources */,
 				E5E35AC41F580AEA0029DF89 /* baratheonSigil.png in Resources */,
 				E5E35ACA1F580F5D0029DF89 /* tullySigil.png in Resources */,
@@ -385,11 +399,13 @@
 				E5C86C3B1F5390A20000ABA4 /* e501.jpg in Resources */,
 				E5E473B11F50F2AA007A56CA /* WikiViewController.xib in Resources */,
 				E5C86C461F542B160000ABA4 /* EpisodeViewController.xib in Resources */,
+				E5B11DD31F58342300D5A427 /* S07.png in Resources */,
 				E5E473AD1F5048AF007A56CA /* targaryen.png in Resources */,
 				E5C86C3C1F5390A20000ABA4 /* e502.jpg in Resources */,
 				E50B19C71F4AE91A00F765E0 /* codeIsComing.png in Resources */,
 				E5C86C361F5390A20000ABA4 /* e202.jpg in Resources */,
 				E5C86C371F5390A20000ABA4 /* e301.jpg in Resources */,
+				E5B11DD91F58358600D5A427 /* e703.jpg in Resources */,
 				E54240611F572F2600127494 /* S02.png in Resources */,
 				E5C86C3D1F5390A20000ABA4 /* e601.jpg in Resources */,
 				E54240651F572F2600127494 /* S06.png in Resources */,

@@ -57,9 +57,9 @@ final class DataSources {
                 cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellID)
             }
             
-            cell?.textLabel?.text       = season.name
+            cell?.textLabel?.text       = "\(season.name)  (\(season.count) episodes)"
             cell?.imageView?.image      = season.image
-            cell?.detailTextLabel?.text = season.releaseDate.stringToDate()
+            cell?.detailTextLabel?.text = "Original release date: \(season.releaseDate.stringToDate()) "
             
             return cell!
         })
@@ -76,9 +76,9 @@ final class DataSources {
                 cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellID)
             }
             
-            cell?.textLabel?.text       = episode.title
+            cell?.textLabel?.text       = "Ep.\(episode.number) - \(episode.title)"
             cell?.imageView?.image      = episode.image
-            cell?.detailTextLabel?.text = episode.airDate.stringToDate()
+            cell?.detailTextLabel?.text = "First aired: \(episode.airDate.stringToDate())"
             
             return cell!
         })
